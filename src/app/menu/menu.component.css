@@ -1,0 +1,8 @@
+.menu{
+    padding: 15px;
+}
+
+.item-list:hover{
+    background-color: darkorchid;
+    color: white;
+}

@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+.bg-white{
+    background-color: white;
+}
+
+.color-white{
+    color: white;
+}
+
+.content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-round{
+    margin-top: 15px;
+    margin-left: 15px;
+}

@@ -12,6 +12,10 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+    "types": [
+      "jquery",
+      "d3"
+    ],
     "lib": [
       "es2017",
       "dom"
