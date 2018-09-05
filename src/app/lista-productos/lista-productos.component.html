@@ -1,0 +1,32 @@
+<div class="row">
+  <div class="col" *ngFor="let producto of this._productos">
+    <div class="btn-group" *ngIf="producto.visible">
+      <label class="btn btn-primary active">
+        <input type="checkbox" [id]="producto.value+'_id'" (click)="cambiarChecked(this.producto.value + '_id')"> 
+        <label>{{producto.value}}</label>
+        <img src="{{producto.urlImg}}" class="img">
+        <span>$ {{producto.price}}</span>
+      </label>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <button class="btn bg-primary color-white button" (click)="verComprados()">
+      Comprados
+    </button>
+    <button class="btn bg-primary color-white button" (click)="verDisponibles()">
+      Disponibles
+    </button>
+    <button class="btn bg-primary color-white button" (click)="verTodos()">
+      Todos
+    </button>
+  </div>
+</div>
+<div class="row color-white">
+  <div class="col bg-success">
+    <label>
+      Total: {{total}}
+    </label>
+  </div>
+</div>

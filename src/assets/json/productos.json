@@ -1,0 +1,32 @@
+{
+    "datos": [
+        {
+            "value": "PS4",
+            "urlImg": "./assets/img/ps4.png",
+            "checked": false,
+            "visible": true,
+            "price": 50000
+        },
+        {
+            "value": "XBOX",
+            "urlImg": "./assets/img/xbox.jpg",
+            "checked": false,
+            "visible": true,
+            "price": 70000
+        },
+        {
+            "value": "Switch",
+            "urlImg": "./assets/img/switch.jpg",
+            "checked": false,
+            "visible": true,
+            "price": 80000
+        },
+        {
+            "value": "Shield",
+            "urlImg": "./assets/img/shield.png",
+            "checked": false,
+            "visible": true,
+            "price": 90000
+        }
+    ]
+}
